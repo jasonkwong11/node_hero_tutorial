@@ -17,17 +17,17 @@ console.log(numbers.filter(isBiggerThanTwo));
 const path = require('path')
 const express = require('express')
 const exphbs = require('express-handlebars')
-
+const app = express()
 //initialize handlebars engine and sets
 //layouts directory to views/layouts
 app.engine('.hbs', exphbs({
   defaultLayout: 'main',
   extname: '.hbs',
-  layoutsDir: path.join(_dirname, 'views/layouts')
+  layoutsDir: path.join(__dirname, 'views/layouts')
 }))
 
 app.set('views engine', '.hbs')
-app.set('views', path.join(_dirname, 'views'))
+app.set('views', path.join(__dirname, 'views'))
 
 // add a route to express app
   //render takes 2 params: 
