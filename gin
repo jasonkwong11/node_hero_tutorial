@@ -1,0 +1,19 @@
+                                              List of databases
+            Name             |   Owner    | Encoding |   Collate   |    Ctype    |     Access privileges     
+-----------------------------+------------+----------+-------------+-------------+---------------------------
+ jasonkwong                  | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ learnco_blog                | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ learnco_blog_test           | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ node_hero                   | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres                    | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ seven_one_seven_development | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ seven_one_seven_test        | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sosa_development            | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ sosa_test                   | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0                   | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/jasonkwong            +
+                             |            |          |             |             | jasonkwong=CTc/jasonkwong
+ template1                   | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/jasonkwong            +
+                             |            |          |             |             | jasonkwong=CTc/jasonkwong
+ utees_development           | jasonkwong | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+(12 rows)
+
